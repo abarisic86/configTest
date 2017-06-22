@@ -14,7 +14,7 @@ class App extends Component {
           {process.env.NODE_ENV}
         </p>
         <p className="App-intro">
-          {process.env.REACT_APP_TEST}
+          {process.env.REACT_APP_API_HOST}
         </p>
       </div>
     )
